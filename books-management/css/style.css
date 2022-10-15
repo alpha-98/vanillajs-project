@@ -1,0 +1,50 @@
+*,*:after,*:before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.book-container {
+  border: 1px solid black;
+  margin: 20px auto;
+  padding: 10px;
+  width: 80%;
+}
+
+.insert-book {
+  border: 1px solid black;
+}
+
+#insert-book-btn {
+  width: 100%;
+  border: none;
+}
+
+.book-description,.insert-book-detail{
+  max-height: 0;
+  transition: max-height 0.2s ease-in-out;
+  overflow: hidden;
+}
+
+.book-description.active,.insert-book-detail.active{
+  max-height: 1000px;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  width: 50%;
+}
+
+.delete-btn-div{
+  width: 50%;
+  margin: 0 auto;
+  text-align: right;
+  margin-bottom: 10px;
+}
+
+.delete-btn {
+  color: red;
+  cursor: pointer;
+}

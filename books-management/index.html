@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Books Mangament</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <body>
+    <div id="app">
+      <div class="book-container">
+        <div class="insert-book">
+          <button id="insert-book-btn"> <span class="text-start"><i class="fa fa-close"></i></span> Insert Book</button>
+          <div class="insert-book-detail">
+            <form>
+              <div>
+                <span>Book Name</span>
+                <input id="book_name" type="text" placeholder="Book Name" />
+              </div>
+              <div>
+                <span>Book Detail</span>
+                <input id="book_detail" type="text" placeholder="Book Detail" />
+              </div>
+              <div>
+                <span>Author Name</span>
+                <input id="author_name" type="text" placeholder="Author Name" />
+              </div>
+              <div>
+                <span>Publish Date</span>
+                <input
+                  id="publish_date"
+                  type="date"
+                  placeholder="Publish Date"
+                />
+              </div>
+              <div>
+                <span>Book Name</span>
+                <input id="price" type="text" placeholder="price" />
+              </div>
+              <div>
+                <input type="submit" value="Create Event" />
+              </div>
+            </form>
+          </div>
+        </div>  
+      </div>
+    </div>
+
+    <script type="module" src="js/index.js"></script>
+  </body>
+</html>
